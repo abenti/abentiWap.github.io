@@ -7,7 +7,13 @@ body {
 #loginText {
     font-size: smaller;
 }
+#loginText1 {
+    font-size: smaller;
+}
 .footerBG {
+    background-color: #e6e6e6;
+}
+.footerBG1 {
     background-color: #e6e6e6;
 }
 #separator {
