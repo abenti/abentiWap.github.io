@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-#mainHeader {
-    text-align: center;
-=======
+
 body {
     background-color: #f3f3f3;
 }
@@ -23,5 +20,4 @@ body {
 #separator {
     border-left: solid 1px;
     border-color: lightgray;
->>>>>>> 067e4f0acb5186eb5e5d412c4da0b02cf3db9d3b
 }
