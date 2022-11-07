@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/cerulean/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <form method="get" action="formprocessor.html" autocomplete="on">
+        <div class="container">
+          <div class="row m-3">
+            <div class="col-sm-8">
+              <p>Email Address</p>
+            </div>
+            <div>
+              <input
+                class="col-sm-8 rounded"
+                type="email"
+                name="email"
+                placeholder="Enter Email"
+                required="true"
+              />
+
+              <p>We'll never share your email with anyone else</p>
+              <p>Password</p>
+              <input
+                class="col-sm-8 rounded"
+                type="password"
+                name="password"
+                placeholder="Password"
+                pattern="/^(?=.*[0-9])(?=.*[a-zA-Z]){10,}"
+                required="true"
+              />
+            </div>
+            <div class="col-sm-8" class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckChecked"
+                checked
+              />
+              <label class="form-check-label" for="flexCheckChecked">
+                Checked checkbox
+              </label>
+            </div>
+            <div>
+              <p>Enter URL</p>
+              <input
+                class="col-sm-8 rounded"
+                type="password"
+                name="password"
+                placeholder="URL"
+                pattern="https?://.+"
+                required="true"
+              />
+            </div>
+            <div>
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
