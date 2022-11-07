@@ -1,3 +1,27 @@
+<<<<<<< HEAD
 #mainHeader {
     text-align: center;
+=======
+body {
+    background-color: #f3f3f3;
+}
+#welcomeHeader {
+    background-color: #374777;
+}
+#loginText {
+    font-size: smaller;
+}
+#loginText1 {
+    font-size: smaller;
+}
+.footerBG {
+    background-color: #e6e6e6;
+}
+#footerBG1 {
+    background-color: #e6e6e6;
+}
+#separator {
+    border-left: solid 1px;
+    border-color: lightgray;
+>>>>>>> 067e4f0acb5186eb5e5d412c4da0b02cf3db9d3b
 }
